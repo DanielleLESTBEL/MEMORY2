@@ -1,0 +1,79 @@
+/* body {
+    background-color: aquamarine;
+    border:2px;
+    border-color: crimson;
+}
+
+.card_recto {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    border:2px;
+    border-color: crimson;
+}
+
+.card_verso {
+    width: 50px;
+    height: 150px;
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}   
+
+.card {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    border:10px;
+    border-color: crimson;
+} */
+
+/* Style pour la table */
+/* table {
+    width: 100%; /* La table prend toute la largeur de la page */
+    /* border-collapse: collapse; /* Supprime les espaces entre les bordures */
+/* } */
+
+/* Style pour les cellules de la table */
+/* td {
+    border: 2px solid black; /* Bordure noire autour de chaque cellule */
+    /* width: 33.33%; /* Chaque cellule prend 1/3 de la largeur de la table */
+    
+
+td {
+
+    width: 100px;
+
+    height: 100px;
+
+    margin: 0 auto 1rem;
+
+    overflow: hidden;
+
+
+}
+
+
+
+td img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
