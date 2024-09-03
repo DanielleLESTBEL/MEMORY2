@@ -10,7 +10,12 @@
 
 <body>
 
-    <table border="1">
+<?php
+include"Includes/_card.php";
+?>
+
+
+    <!-- <table border="1">
         <tr>
             <td> <img src="Assets/Pictures/capybara.jpg" alt=""></td>
             <td> <img src="Assets/Pictures/chat_noir.jpg" alt=""></td>
@@ -32,7 +37,7 @@
             <td> <img src="Assets/Pictures/tigre.jpg" alt=""></td>
         </tr>
         
-    </table>
+    </table> -->
 
     <?php
     session_start();
