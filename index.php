@@ -5,13 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/Css/card.css"?t=<?= time(); ?>"/>
-    <title>Memory Game</title>
+    <title>Memory Game2</title>
 </head>
 
 <body>
 
 <?php
 include"Includes/_card.php";
+
+$versoTable = ['img* src="Assets/Pictures"'];
+
+shuffle($storedCards);
+$rectoTable = ['img src="Assets/Pictures/la_plateforme.jpg"'];
+
+foreach ($storedCards as $card) {
+    echo "<img src='" . $card . "'> &nbsp;";
+}
+
 ?>
 
 
